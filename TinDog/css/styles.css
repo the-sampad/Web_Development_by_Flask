@@ -1,0 +1,239 @@
+body {
+    font-family: "Montserrat-Regular", sans-serif;
+}
+
+/* Section 1 title */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;   
+}
+
+.title-container {
+    padding: 3% 15%;
+}
+
+.navbar {
+
+    background-color: #ff4c68;
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*Multiple Selectors - during refactoring the code you can combine h1, h2, and write using commas if they have same properties */
+/*Hierarchical Selectors - Similarly #title .container-fluid{ } will target to container-fluid class inside #title only you can read it from left to right Example:  div h1 {} means all h1 inside div . this combination may be a single one or more */
+/*Combined Selectors - when there is no space you have to read from left to right example :  h1#title{} all h1 inside id title */
+
+
+
+
+.download-button {
+    margin: 30px 10px 30px 0;
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+ /* We can also use z-index to hide the overflow */
+
+
+
+/* Section 2 features */
+
+#features {
+    background-color: #fff;
+    padding: 8% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.features-icon{
+    color: #ef8172;
+    margin: 0 0 20px;
+    overflow: visible;
+    background-color: #fff;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.features-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.features-p {
+    color: #8f8f8f;
+}
+
+
+
+
+/*Section 3 Testimonial */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-head {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.testimonials-items{
+    padding: 7% 15%;
+}
+
+
+
+/* Press */
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.press-image {
+    width: 19%;
+    padding: 0 2%;
+}
+
+
+
+/* Pricing */
+
+#pricing{
+    text-align: center;
+    padding: 7% 7%;
+}
+
+.pricing-heading{
+    padding-bottom: 40px;
+}
+
+.pricing-head{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.pricing-subtitle{
+    color: #8f8f8f;
+    font-size: 1.05rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.subscription-type{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.signup-button{
+    width: 97%;
+}
+
+.not-free{
+    background-color: rgb(45, 45, 45);
+}
+
+.not-free:hover{
+    background-color: #000;
+}
+
+
+
+
+/* Call to Action */
+
+#cta{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 10% 8%;
+    color: #fff;
+}
+
+.apple-play{
+    margin: 50px 20px 20px 0;
+}
+
+
+
+
+
+/* footer */
+
+#footer {
+    text-align: center;
+    padding: 7% 35%;
+    
+}
+
+.footer-icons{
+    padding: 0 3% 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

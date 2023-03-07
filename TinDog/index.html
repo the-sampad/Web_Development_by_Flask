@@ -1,0 +1,218 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;800;900&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/92229c59b8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid title-container">
+      <!--All the classes used below are available in bootstrap we just used it to customize our website-->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">tindog</a>
+        <!--navbar-brand used to add a brand. run and observe-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ms-auto">
+            <!--ml-auto adds margin between the previous and this one generally it goes to extreme right-->
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+            <!--There are vast usages of navbar. you can go to the site and look for it. 
+                You can add dropdown to the items sorted above
+                Use of fixed navbar is more these days i.e. even you scroll down the page, navbar will always show on the top of the page-->
+          </ul>
+        </div>
+
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 heading-div">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-lg btn-dark download-button not-free"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-lg btn-outline-light download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6 heading-div">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row container-fluid">
+      <div class="col-lg-4 features-column btn btn-lg">
+        <i class="fa-solid fa-circle-check fa-3x features-icon"></i>
+        <h3 class="features-head">Easy to use.</h3>
+        <p class="features-p">So easy to use, even your dog could do it.</p>
+      </div>
+
+      <div type='button' class="col-lg-4 features-column btn btn-lg">
+        <i class="fa-solid fa-bullseye fa-3x features-icon"></i>
+        <h3 class="features-head">Elite Clientele</h3>
+        <p class="features-p">We have all the dogs, the greatest dogs.</p>
+      </div>
+
+      <div type='button' class="col-lg-4 features-column btn btn-lg">
+        <i class="fa-solid fa-heart fa-3x features-icon"></i>
+        <h3 class="features-head">Guaranteed to work.</h3>
+        <p class="features-p">Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item testimonials-items active">
+            <h2 class="testimonials-head">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
+            <em>Pebbles, New York</em>
+          
+        </div>
+
+        <div class="carousel-item testimonials-items">
+          
+            <h2 class="testimonials-head">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          
+        </div>
+      </div>
+      <button class="carousel-control-prev" data-bs-target="#testimonials-carousel" type="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" data-bs-target="#testimonials-carousel" type="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-image" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-image" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-image" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-image" src="images/mashable.png" alt="mashable-logo">
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <div class="pricing-heading">
+      <h2 class="pricing-head">A Plan for Every Dog's Needs</h2>
+      <p class="pricing-subtitle">Simple and affordable price plans for your and your dog.</p>
+    </div>
+    <div class="row pricing-cards-div"> 
+      <div class="col-lg-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h3 class="subscription-type">Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-head">Free</h2>
+            <p class="card-text pricing-subtitle">5 Matches Per Day</p>
+            <p class="card-text pricing-subtitle">10 Messages Per Day</p>
+            <p class="card-text pricing-subtitle">Unlimited App Usage</p>
+            <button type="button" class="btn signup-button btn-outline-dark btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h3 class="subscription-type">Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-head">$49 / mo</h2>
+            <p class="card-text pricing-subtitle">Unlimited Matches</p>
+            <p class="card-text pricing-subtitle">Unlimited Messages</p>
+            <p class="card-text pricing-subtitle">Unlimited App Usage</p>
+            <button type="button" class="btn not-free btn-secondary btn-lg signup-button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h3 class="subscription-type">Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-head">$99 / mo</h2>
+            <p class="card-text pricing-subtitle">Pirority Listing</p>
+            <p class="card-text pricing-subtitle">Unlimited Matches</p>
+            <p class="card-text pricing-subtitle">Unlimited Messages</p>
+            <p class="card-text pricing-subtitle">Unlimited App Usage</p>
+            <button type="button" class="btn not-free signup-button btn-secondary btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta" class="container-fluid">
+
+    <h3 class="cta-head pricing-head">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-lg btn-dark download-button apple-play not-free"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-light apple-play download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer" class="container-fluid">
+    <i class="fa-brands footer-icons fa-facebook-f"></i>
+    <i class="fa-brands footer-icons fa-twitter"></i>
+    <i class="fa-brands footer-icons fa-instagram"></i>
+    <i class="fa-solid footer-icons fa-envelope"></i>
+    <p class="pricing-subtitle">© Copyright 2022 TinDog</p>
+
+  </footer>
+
+
+</body>
+
+</html>
